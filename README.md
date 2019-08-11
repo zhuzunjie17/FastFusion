@@ -1,7 +1,8 @@
 # FMDataset
-We released the dataset called Fast sensor Motion Dataset, which is used on our ICME'19 paper. FMDataset aims to verify the robustness of Dense-SLAM system at different velocities of sensor motion. 
-It contains color images, depth images and IMUs gathered by a handheld sensor Intel realsense ZR300. We filtered depth images and saved in "filtered" file.  
-The dataset has 14 sequences with 6 different scenes. You may Download it at:  
+We released the dataset called **Fast sensor Motion Dataset**, which is used on our ICME'19 paper. **FMDataset** aims to verify the robustness of Dense-SLAM system at different velocities of sensor motion. 
+It contains **color images, depth images and IMUs** gathered by a handheld sensor Intel realsense ZR300. We filtered depth images and saved in a file named "filtered".  
+The dataset has 14 sequences with 6 different scenes. All datasets are divided into slow, medium and fast depending on the camera motion speed and the blur level of the recorded images. To be more specific, as there is no explicit criteria to divide camera speed into slow and fast, thus we empirically set the motion without creating image motion blur as slow camera motion, and the motion which creates severe image blur as fast camera motion.
+You may Download our Dataset at:  
 **Baidu Drive:** https://pan.baidu.com/s/1g5W1k6vhZM-3JTPQIDmS-A  code: ae79  
 **Google Drive:** https://drive.google.com/drive/folders/1oaK3yreUtHjRTx-AVaspcCPGY7YEYBak?usp=sharing
 
