@@ -10,7 +10,8 @@ We have also provide **DatasetReader** code for you to easily read our dataset i
 
 # Reference
 One of our work has got ICME'19 best student paper award, which propose a robust system under fast sensor motion. You can found our paper and vido below:  
-http://39.98.209.108/publications/2019/2019FastFusion.pdf
+http://39.98.209.108/publications/2019/2019FastFusion.pdf 
+
 http://39.98.209.108/publications/2019/zhuzunjie_VIDEO.mp4
 
 # Citation
